@@ -1,104 +1,17 @@
-[index.html](https://github.com/user-attachments/files/32591201/index.html)
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Animation</title>
+# John Patrick Abelida Animation
 
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            background-color: #f2f2f2;
-        }
+I-click ang link sa ibaba para makita ang **output** ng HTML page, hindi ang source code:
 
-        h1 {
-            margin-top: 40px;
-            color: #333;
-        }
+👉 **[Buksan ang output](https://johnpatrickabelida.github.io/John-Patrick-Abelida-2/)**
 
-        .container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 40px;
-        }
+## Para gumana ang link
 
-        .box {
-            width: 110px;
-            height: 110px;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            border-radius: 10px;
-            font-weight: bold;
-            box-shadow: 0 4px 8px gray;
-        }
+I-enable ang GitHub Pages sa repository settings:
 
-       
-        .fade {
-            background-color: #3498db;
-        }
+1. Pumunta sa **Settings** ng repository.
+2. Piliin ang **Pages**.
+3. Sa **Build and deployment**, piliin ang **Deploy from a branch**.
+4. Piliin ang `main` branch at folder na `/ (root)`.
+5. I-click ang **Save**.
 
-        .fade:hover {
-            opacity: 0.3;
-            transition: 0.5s;
-        }
-
-        .shake {
-            background-color: #e74c3c;
-        }
-
-        .shake:hover {
-            animation: shake 0.4s;
-        }
-
-        @keyframes shake {
-            0% { transform: translateX(0); }
-            25% { transform: translateX(-10px); }
-            50% { transform: translateX(10px); }
-            75% { transform: translateX(-10px); }
-            100% { transform: translateX(0); }
-        }
-
-      
-        .jump {
-            background-color: #2ecc71;
-        }
-
-        .jump:hover {
-            animation: jump 0.6s;
-        }
-
-        @keyframes jump {
-            50% {
-                transform: translateY(-30px);
-            }
-        }
-    </style>
-</head>
-
-<body>
-
-    <h1>JOHN PATRICK ABELIDA</h1>
-
-    <div class="container">
-
-        <div class="box fade">
-            FADE
-        </div>
-
-        <div class="box shake">
-            SHAKE
-        </div>
-
-        <div class="box jump">
-            JUMP
-        </div>
-
-    </div>
-
-</body>
-</html>
-```
+Pagkatapos ng ilang minuto, buksan ang link sa itaas. Ang `index.html` ang ipapakita bilang webpage.
